@@ -32,6 +32,8 @@ export default function Home() {
           />
         </div>
       </div>
+                <Image src={"/UH.png"} height={1000} width={1000} alt="UnitedHackV4-logo" className="mx-auto" />
+      
       <FeatureShowcase />
     </div>
   );

@@ -4,7 +4,7 @@ import "./globals.css";
 import { Dock } from "@/components/Dock";
 import TabProvider from "@/providers/tabs-provider";
 import { BackgroundLines } from "@/components/ui/background-lines";
-
+import Image from "next/image";
 import { HomeIcon, HelpCircleIcon, VideoIcon, BookOpenIcon, PenToolIcon, GraduationCapIcon } from 'lucide-react';
 
 
