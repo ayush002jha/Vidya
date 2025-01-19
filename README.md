@@ -1,3 +1,4 @@
+![HomeScreen](/public/home.jpeg)
 
 ## Getting Started
 
