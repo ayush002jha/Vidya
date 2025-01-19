@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FeatureShowcase from "@/components/FeatureShowcase";
 
 export default function Home() {
   return (
@@ -12,7 +13,17 @@ export default function Home() {
             Your AI-Powered Study Companion
           </h2>
         </div>
+        <div className="text-white text-end text-sm z-50">
+          <p className="me-4">Powered By</p>
+          <Image
+            src={"https://docs.langflow.org/img/langflow-logo-white.svg"}
+            height={250}
+            width={250}
+            alt="langflow-logo"
+          />
         </div>
-    </div>
+      </div>
+      <FeatureShowcase />
+          </div>
   );
 }
